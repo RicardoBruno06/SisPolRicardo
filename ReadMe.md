@@ -1,1 +1,1 @@
-Esta é a parte(branch) do usuário Ricardo.
+Esta é a parte(branch) do usuário Ricardo Bruno.
