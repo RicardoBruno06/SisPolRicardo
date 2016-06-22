@@ -1,0 +1,37 @@
+<%= form_for(@passage) do |f| %>
+  <% if @passage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@passage.errors.count, "error") %> prohibited this passage from being saved:</h2>
+
+      <ul>
+      <% @passage.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :client %><br>
+    <%= collection_select(:passage, :client_id, Client.all, :id, :cpf) %>
+  </div>
+  <div class="field">
+    <%= f.label :company %><br>
+    <%= collection_select(:passage, :company_id, Company.all, :id, :cnpj) %>
+  </div>
+  <div class="field">
+    <%= f.label :Route %><br>
+    <%= collection_select(:passage, :route_id, Route.all, :id, :hour) %>
+  </div>
+  <div class="field">
+    <%= f.label :font %><br>
+    <%= f.text_field :font %>
+  </div>
+  <div class="field">
+    <%= f.label :destiny %><br>
+    <%= f.text_field :destiny %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

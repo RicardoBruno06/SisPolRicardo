@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="sliding_photos/templatemo_940x360_01.jpg" Title="Infoseg">
+		<Text>&lt;h1&gt;Infoseg (Informações de Segurança).com&lt;/h1&gt;&lt;p&gt;A INFOSEG é uma rede que reúne informações de segurança pública dos órgãos de fiscalização do Brasil, através do emprego da tecnologia da Informação e comunicação. Tal rede tem por objetivo a integração das informações de Segurança Pública, Justiça e Fiscalização, como dados de inquéritos, processos, de armas de fogo, de veículos, de condutores e de mandados de prisão. &lt;/p&gt;</Text>
+		<Hyperlink URL="https://www.infoseg.gov.br/" Target="_blank" />
+	</Image>		
+    <Image Source="sliding_photos/templatemo_940x360_02.jpg" Title="SISPROCEP">
+      <Text>&lt;h1&gt;SISPROCEP (Sistema de Procedimentos Policiais)&lt;/h1&gt;&lt;p&gt;Este sistema comporta um banco de dados importante, não só para fornecer estatísticas de crimes já cometidos, mas, também, para subsidiar novas investigações, à medida em que contém informações a respeito de crimes e pessoas envolvidas, que podem ser acessadas instantaneamente.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.youtube.com" Target="_blank" />
+    </Image>
+	<Image Source="sliding_photos/templatemo_940x360_03.jpg" Title="SisBO">
+      <Text>&lt;h1&gt;SisBO (Sistema de Boletim de Ocorrência)&lt;/h1&gt;&lt;p&gt;Tecnologia própria, ousada e piauiense. É assim que se pode definir o novo Sistema de Boletim de Ocorrência - SisBO, da Polícia Civil do Piauí, que está em fase de teste e será lançado oficialmente nos próximos dias. Depois de quase um ano e meio de trabalho exaustivo da Comissão de Modernização da Polícia Judiciária, da Gerência de Administração de Recursos de Informática e da Agência de Tecnologia da Informação, a nova ferramenta de registro de ocorrências policiais já é realidade.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.google.com/search?q=templatemo" Target="_blank" />
+    </Image>
+	<Image Source="sliding_photos/templatemo_940x360_04.jpg" Title="SisPC">
+      <Text>&lt;h1&gt;Web Design Ideas&lt;/h1&gt;&lt;p&gt;Aliquam at tincidunt nibh. Quisque ligula est, ultricies mattis aliquet at, aliquam quis urna. Fusce a bibendum est. Nullam fringilla, turpis eu suscipit vestibulum, dui massa rutrum tellus, a faucibus nibh tellus porta elit. Duis bibendum lacus quam. &lt;/p&gt;&lt;p&gt;Maecenas rhoncus accumsan facilisis. Nam dignissim libero eu dui tempus sit amet ultricies dolor laoreet. &lt;/p&gt;&lt;p&gt;Nullam cursus, ante sit amet condimentum venenatis, orci quam suscipit libero, ut accumsan quam mi ultricies lectus.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://www.google.com" Target="_blank" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="900" ImageHeight="360" LoaderColor="0x333333" InnerSideColor="0x161616" SideShadowAlpha="0.8" DropShadowAlpha="0.8" DropShadowDistance="22" DropShadowScale="0.95" DropShadowBlurX="25" DropShadowBlurY="8" MenuDistanceX="20" MenuDistanceY="40" MenuColor1="0x999999" MenuColor2="0x666666" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x000000" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="3" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="9" Time="1.3" Transition="easeInOutQuart" Delay="0.12" DepthOffset="650" CubeDistance="40"></Transition>
+    <Transition Pieces="10" Time="1.1" Transition="easeInOutBack" Delay="0.11" DepthOffset="600" CubeDistance="50"></Transition>
+    <Transition Pieces="14" Time="1.0" Transition="easeInOutBack" Delay="0.08" DepthOffset="750" CubeDistance="40"></Transition>
+    <Transition Pieces="11" Time="1.2" Transition="easeInOutQuart" Delay="0.10" DepthOffset="700" CubeDistance="35"></Transition>
+  </Transitions>
+</Piecemaker>

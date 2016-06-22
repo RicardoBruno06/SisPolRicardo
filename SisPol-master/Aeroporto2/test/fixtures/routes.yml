@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hour: MyString
+  price: MyString
+  status: 
+
+two:
+  hour: MyString
+  price: MyString
+  status: 
